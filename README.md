@@ -1,5 +1,7 @@
 # Multi-Agent Transportation Modeling
 
+**Live project:** [https://multi-agent-transportation-modeling.vercel.app](https://multi-agent-transportation-modeling.vercel.app)
+
 An interactive traffic simulation developed as a master's project. The model
 simulates cars with aggressive, standard, and cautious driving behaviours at a
 four-way intersection with dynamically timed traffic lights.
