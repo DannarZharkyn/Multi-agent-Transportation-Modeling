@@ -1,7 +1,7 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "framework": null,
-  "buildCommand": "python3 -m pip install -r requirements-dev.txt && python3 -m pygbag --build --title 'Multi-Agent Transportation Modeling' .",
+  "buildCommand": "python3 -m venv /tmp/pygbag-build && /tmp/pygbag-build/bin/python -m pip install 'pygbag>=0.9,<1' && /tmp/pygbag-build/bin/python -m pygbag --build --title 'Multi-Agent Transportation Modeling' .",
   "outputDirectory": "build/web",
   "cleanUrls": true
 }
